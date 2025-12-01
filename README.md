@@ -238,18 +238,18 @@ You can generate and save performance s to the `s/` directory and they will auto
 - OpenMP scaling with threads:
 
   ```text
-  outputs/plots/omp_scaling.png
+  plots/omp_scaling.png
   ```
 
-  ![OpenMP scaling vs threads](outputs/plots/omp_scaling.png)
+  ![OpenMP scaling vs threads](plots/omp_scaling.png)
 
 - Runtime vs number of bodies for all implementations:
 
   ```text
-  outputs/plots/perf_vs_N.png
+  plots/perf_vs_N.png
   ```
 
-  ![Execution time vs N](outputs/plots/perf_vs_N.png)
+  ![Execution time vs N](plots/perf_vs_N.png)
 
 ### Larger CUDA runs
 
@@ -287,17 +287,17 @@ Example data used for visualization:
 - `N = 256` bodies
 - `num_steps = 1000`
 - Output GIF:  
-  `outputs/vis/nbody_N256_steps1000.gif`
+  `vis/nbody_N256_steps1000.gif`
 
 ### Visualization placeholders
 
 Animated GIF:
 
 ```text
-outputs/vis/nbody_N256_steps1000.gif
+vis/nbody_N256_steps1000.gif
 ```
 
-![N body animation (GIF)](outputs/vis/nbody_N256_steps1000.gif)
+![N body animation (GIF)](vis/nbody_N256_steps1000.gif)
 
 ---
 
