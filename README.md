@@ -15,9 +15,9 @@ Bodies interact through Newtonian gravity in a 2D unit square with reflective bo
 
 For bodies \(i\) and \(j\),
 
-\[
-\mathbf{F}_{ij} = G \frac{m_i m_j}{(r_{ij}^2 + \varepsilon)^{3/2}} \mathbf{r}_{ij},
-\]
+$$
+\vec{F}_{ij} = G \frac{m_i m_j}{\left(r_{ij}^2 + \varepsilon\right)^{3/2}} \,\vec{r}_{ij}
+$$
 
 with
 
@@ -28,10 +28,12 @@ with
 
 Integration scheme:
 
-\[
-\mathbf{v}_i^{t+\Delta t} = \mathbf{v}_i^t + \mathbf{a}_i^t \Delta t, \quad
-\mathbf{x}_i^{t+\Delta t} = \mathbf{x}_i^t + \mathbf{v}_i^{t+\Delta t} \Delta t
-\]
+$$
+\begin{aligned}
+\vec{v}_i^{\,t+\Delta t} &= \vec{v}_i^{\,t} + \vec{a}_i^{\,t}\,\Delta t, \\
+\vec{x}_i^{\,t+\Delta t} &= \vec{x}_i^{\,t} + \vec{v}_i^{\,t+\Delta t}\,\Delta t
+\end{aligned}
+$$
 
 If a position leaves the box, it is clamped back to the boundary and the corresponding velocity component is flipped.
 
@@ -296,14 +298,6 @@ outputs/vis/nbody_N256_steps1000.gif
 ```
 
 ![N body animation (GIF)](outputs/vis/nbody_N256_steps1000.gif)
-
-Static snapshot (for README and papers):
-
-```text
-plots/nbody_N256_steps1000.png
-```
-
-![N body snapshot](plots/nbody_N256_steps1000.png)
 
 ---
 
