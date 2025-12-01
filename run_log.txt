@@ -1,0 +1,90 @@
+SEQ N=64
+Sequential time: 0.0236475 s
+Sequential output written to: "outputs/seq/seq_N64_steps1000_final.txt"
+SEQ N=512
+Sequential time: 1.25299 s
+Sequential output written to: "outputs/seq/seq_N512_steps1000_final.txt"
+SEQ N=1024
+Sequential time: 4.99316 s
+Sequential output written to: "outputs/seq/seq_N1024_steps1000_final.txt"
+SEQ N=2048
+Sequential time: 19.9395 s
+Sequential output written to: "outputs/seq/seq_N2048_steps1000_final.txt"
+SEQ N=4096
+Sequential time: 79.7477 s
+Sequential output written to: "outputs/seq/seq_N4096_steps1000_final.txt"
+OMP N=64 threads=1
+OpenMP time (1 threads): 0.0256426 s
+OpenMP output written to: "outputs/omp/omp_N64_steps1000_t1.txt"
+OMP N=512 threads=1
+OpenMP time (1 threads): 1.26392 s
+OpenMP output written to: "outputs/omp/omp_N512_steps1000_t1.txt"
+OMP N=1024 threads=1
+OpenMP time (1 threads): 5.03074 s
+OpenMP output written to: "outputs/omp/omp_N1024_steps1000_t1.txt"
+OMP N=2048 threads=1
+OpenMP time (1 threads): 20.111 s
+OpenMP output written to: "outputs/omp/omp_N2048_steps1000_t1.txt"
+OMP N=4096 threads=1
+OpenMP time (1 threads): 80.4324 s
+OpenMP output written to: "outputs/omp/omp_N4096_steps1000_t1.txt"
+OMP N=64 threads=2
+OpenMP time (2 threads): 0.0210384 s
+OpenMP output written to: "outputs/omp/omp_N64_steps1000_t2.txt"
+OMP N=512 threads=2
+OpenMP time (2 threads): 0.645518 s
+OpenMP output written to: "outputs/omp/omp_N512_steps1000_t2.txt"
+OMP N=1024 threads=2
+OpenMP time (2 threads): 2.56342 s
+OpenMP output written to: "outputs/omp/omp_N1024_steps1000_t2.txt"
+OMP N=2048 threads=2
+OpenMP time (2 threads): 10.0776 s
+OpenMP output written to: "outputs/omp/omp_N2048_steps1000_t2.txt"
+OMP N=4096 threads=2
+OpenMP time (2 threads): 40.2605 s
+OpenMP output written to: "outputs/omp/omp_N4096_steps1000_t2.txt"
+OMP N=64 threads=4
+OpenMP time (4 threads): 0.017919 s
+OpenMP output written to: "outputs/omp/omp_N64_steps1000_t4.txt"
+OMP N=512 threads=4
+OpenMP time (4 threads): 0.354347 s
+OpenMP output written to: "outputs/omp/omp_N512_steps1000_t4.txt"
+OMP N=1024 threads=4
+OpenMP time (4 threads): 1.31812 s
+OpenMP output written to: "outputs/omp/omp_N1024_steps1000_t4.txt"
+OMP N=2048 threads=4
+OpenMP time (4 threads): 5.12039 s
+OpenMP output written to: "outputs/omp/omp_N2048_steps1000_t4.txt"
+OMP N=4096 threads=4
+OpenMP time (4 threads): 20.2888 s
+OpenMP output written to: "outputs/omp/omp_N4096_steps1000_t4.txt"
+OMP N=64 threads=8
+OpenMP time (8 threads): 0.0175993 s
+OpenMP output written to: "outputs/omp/omp_N64_steps1000_t8.txt"
+OMP N=512 threads=8
+OpenMP time (8 threads): 0.203918 s
+OpenMP output written to: "outputs/omp/omp_N512_steps1000_t8.txt"
+OMP N=1024 threads=8
+OpenMP time (8 threads): 0.702557 s
+OpenMP output written to: "outputs/omp/omp_N1024_steps1000_t8.txt"
+OMP N=2048 threads=8
+OpenMP time (8 threads): 2.62902 s
+OpenMP output written to: "outputs/omp/omp_N2048_steps1000_t8.txt"
+OMP N=4096 threads=8
+OpenMP time (8 threads): 10.2472 s
+OpenMP output written to: "outputs/omp/omp_N4096_steps1000_t8.txt"
+CUDA N=64
+CUDA time: 0.0114478 s
+CUDA output written to: "outputs/cuda/cuda_N64_steps1000.txt"
+CUDA N=512
+CUDA time: 0.0348861 s
+CUDA output written to: "outputs/cuda/cuda_N512_steps1000.txt"
+CUDA N=1024
+CUDA time: 0.0661504 s
+CUDA output written to: "outputs/cuda/cuda_N1024_steps1000.txt"
+CUDA N=2048
+CUDA time: 0.12617 s
+CUDA output written to: "outputs/cuda/cuda_N2048_steps1000.txt"
+CUDA N=4096
+CUDA time: 0.224646 s
+CUDA output written to: "outputs/cuda/cuda_N4096_steps1000.txt"
